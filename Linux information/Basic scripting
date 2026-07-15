@@ -1,0 +1,25 @@
+Commands to display the shell that the user is currently using:
+  echo $SHELL
+  echo $0
+
+Keystroke combinations to exit the vi text editor
+  :q
+  ZZ
+
+Commands to remove an empty directory, no longer in use:
+  rm -r olddir
+  rmdir olddir
+
+Command to change group ownership of a file to _____:
+  chown :____ myfile
+  chgrp ____ myfile
+  chgrp -v _____ myfile
+
+Chmod command that would allow the owner to have read, write, and execute permissions, group will only have read, and all others will have no access:
+  740
+
+Command to create a physical volume out of an unused partition:
+  pvcreate
+
+Command to only see the last 10 entries in a log file named "/var/log/auth.log"
+  tail /var/log/auth.log
