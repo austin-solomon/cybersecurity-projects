@@ -1,0 +1,51 @@
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# IntelliJ
+.idea/
+
+# Logs
+*.log
+
+# Temporary files
+*.tmp
+*.temp
+
+# Python
+__pycache__/
+
+# PowerShell
+*.ps1xml
+
+# Credentials
+.env
+*.pem
+*.key
+*.crt
+
+# Archives
+*.zip
+*.rar
+*.7z
+
+# Sensitive Information
+passwords.txt
+credentials.txt
+secrets.txt
+
+# Virtual Machines
+*.vmdk
+*.vdi
+
+# Terraform
+*.tfstate
+
+# Ignore accidental exports
+*.bak
